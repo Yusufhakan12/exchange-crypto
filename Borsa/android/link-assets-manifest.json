@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/TiltWarp-Regular-VariableFont_XROT,YROT.ttf",
+      "sha1": "f26b22374e65e17983d844ef34a96409e222f57f"
+    },
+    {
+      "path": "assets/fonts/TiltWarp-Regular.ttf",
+      "sha1": "8738e571814490bd3e8699149299651d17994e20"
+    }
+  ]
+}

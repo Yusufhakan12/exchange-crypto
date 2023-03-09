@@ -1,0 +1,15 @@
+useEffect(()=>{
+    socket.on('crypto',data=>{
+        const interval=setInterval(()=>{
+            setPrice(data)
+        });
+        return ()=>clearInterval(interval)
+    })
+    
+},[]);
+
+useEffect(()=>{
+    prevPriceRef.current=price
+    },[price]);
+    
+console.log(prevPriceRef.current);
